@@ -1,5 +1,5 @@
 -- Submarine Downloader By
--- Evil Factory & Greetings
+-- Evil Factory & Greetings (AtFreezingPoint)
 -- Workshop Collection is Outsourced; credit to submarine authors.
 -- put here the id of all workshop collections you want the script to download from.
 -- example: {"2963343754"}
