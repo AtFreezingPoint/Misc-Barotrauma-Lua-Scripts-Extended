@@ -23,9 +23,9 @@ SendChatMessage = function (client, text, color)
     text = tostring(text)
 
     if messageIsPopUp then
-        chatMessage = ChatMessage.Create("", text, ChatMessageType.Default)
-    else
         chatMessage = ChatMessage.Create("", text, ChatMessageType.MessageBox)
+    else
+        chatMessage = ChatMessage.Create("", text, ChatMessageType.Default)
     end
  
     if color then
